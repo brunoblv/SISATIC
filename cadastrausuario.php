@@ -20,10 +20,7 @@ if(isset($_POST['salvar'])) {
         case 'Ponto Focal':
             $permissao = 2;
             break;
-
-    }       
-
- 
+    } 
 
     $mysqli->query("INSERT INTO usuarios (usuario, nome, permissao, statususer) VALUES('$usuario','$nome','$permissao','$statususer')") or die ($mysqli->error);
     

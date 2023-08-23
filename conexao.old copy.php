@@ -1,6 +1,6 @@
 <?php
 
-$host = '10.75.32.125';
+$host = 'localhost';
 $user = 'root';
 $password = 'Hta123P';
 $db_name = 'SISATIC';
